@@ -1,4 +1,4 @@
-Teste CI
+Teste CI - 3.0
 
 # b7cicd-example
 
