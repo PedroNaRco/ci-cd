@@ -1,10 +1,14 @@
 name: CI
 
 on: 
-  push:
-    pull_request:
+  pull_request:
     branches:
       - develop
+    paths:
+      - 'src/**'
+      - 'tests/**'
+      - 'package.json'
+      - '.github/workflows/**'
 
 jobs: 
   test:
